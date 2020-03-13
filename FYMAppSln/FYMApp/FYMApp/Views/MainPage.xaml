@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FYMApp.Views.MainPage" BackgroundColor="White">
+            
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+
+        <Image Source="Logo.png" HorizontalOptions="CenterAndExpand">
+
+        </Image>
+
+        <StackLayout Margin="0" VerticalOptions="StartAndExpand">
+            <StackLayout>
+                <Label Text="Cellnumber" FontSize="Large" />
+                <Entry Text="{Binding Cellnumber}"/>
+                <Label Text="Password"  FontSize="Large"/>
+                <Entry  Text="{Binding Password}"/>
+                <Button Text="Login" Command="{Binding LoginCommand}"  CornerRadius="30" BackgroundColor="LightBlue"/>
+                <Label Text="Dont have an Account?" HorizontalOptions="Center"/>
+                <Button Text="SignUp" Command="{Binding SignUpCommand}"  CornerRadius="30" BackgroundColor="LightBlue"/>
+                <Label Text="Or" HorizontalOptions="Center"/>
+                <Button Text="Go to Main Page" Command="{Binding GoToMainPageCommand}"  CornerRadius="30" BackgroundColor="LightBlue"/>
+                <Label x:Name="messageLabel" />
+            </StackLayout>
+        </StackLayout>
+
+
+    </StackLayout>
+
+</ContentPage>
