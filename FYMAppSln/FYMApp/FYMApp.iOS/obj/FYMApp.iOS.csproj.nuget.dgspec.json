@@ -10,7 +10,7 @@
         "projectUniqueName": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp.iOS\\FYMApp.iOS.csproj",
         "projectName": "FYMApp.iOS",
         "projectPath": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp.iOS\\FYMApp.iOS.csproj",
-        "packagesPath": "C:\\Users\\Marthe.Daida\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Thapelo.Selebedi\\.nuget\\packages\\",
         "outputPath": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
@@ -18,7 +18,7 @@
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marthe.Daida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Thapelo.Selebedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -71,7 +71,7 @@
         "projectUniqueName": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp\\FYMApp.csproj",
         "projectName": "FYMApp",
         "projectPath": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp\\FYMApp.csproj",
-        "packagesPath": "C:\\Users\\Marthe.Daida\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Thapelo.Selebedi\\.nuget\\packages\\",
         "outputPath": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
@@ -79,7 +79,7 @@
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marthe.Daida\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Thapelo.Selebedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -112,11 +112,15 @@
             },
             "Prism.DryIoc.Forms": {
               "target": "Package",
-              "version": "[7.2.0.1367, )"
+              "version": "[7.2.0.1422, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[3.6.0.344457, )"
+              "version": "[4.5.0.356, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
             }
           },
           "imports": [
