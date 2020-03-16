@@ -49,7 +49,11 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
-            "Prism.DryIoc.Forms": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Prism.Unity.Forms": {
               "target": "Package",
               "version": "[7.2.0.1422, )"
             },

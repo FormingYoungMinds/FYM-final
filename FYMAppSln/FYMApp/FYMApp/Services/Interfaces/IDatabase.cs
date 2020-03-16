@@ -9,7 +9,5 @@ namespace FYMApp.Services.Interfaces
     public interface IDatabase
     {
         Task<int> SaveUserAsync(User user);
-
-        Task SaveStudentDetailsAsync(int savedDetails);
     }
 }

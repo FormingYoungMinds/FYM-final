@@ -5,7 +5,7 @@ using System.Text;
 
 namespace FYMApp.Models
 {
-    class User
+    public class User
     {
         
         [PrimaryKey, AutoIncrement]
@@ -15,7 +15,5 @@ namespace FYMApp.Models
         public int Cellnumber { get; set; }
 
         public string Password { get; set; }
-
-        public string ConfirmPassword { get; set; }
     }
 }

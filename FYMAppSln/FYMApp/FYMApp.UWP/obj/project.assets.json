@@ -234,7 +234,16 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Prism.Core/7.2.0.1367": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Prism.Core/7.2.0.1422": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Prism.dll": {}
@@ -256,10 +265,10 @@
           "lib/netstandard2.0/Prism.DryIoc.Forms.dll": {}
         }
       },
-      "Prism.Forms/7.2.0.1367": {
+      "Prism.Forms/7.2.0.1422": {
         "type": "package",
         "dependencies": {
-          "Prism.Core": "7.2.0.1367",
+          "Prism.Core": "7.2.0.1422",
           "Xamarin.Forms": "3.6.0.344457"
         },
         "compile": {
@@ -267,6 +276,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "Prism.Unity.Forms/7.2.0.1422": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Forms": "7.2.0.1422",
+          "Unity.Container": "5.11.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.1.8": {
@@ -514,6 +536,15 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -540,6 +571,43 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "Unity.Abstractions/5.11.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        }
+      },
+      "Unity.Container/5.11.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "Unity.Abstractions": "5.11.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
         }
       },
       "Win2D.uwp/1.20.0": {
@@ -593,7 +661,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Prism.DryIoc.Forms": "7.2.0.1422",
+          "Newtonsoft.Json": "12.0.3",
+          "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.356",
           "sqlite-net-pcl": "1.6.292"
         },
@@ -839,7 +908,16 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Prism.Core/7.2.0.1367": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Prism.Core/7.2.0.1422": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Prism.dll": {}
@@ -861,10 +939,10 @@
           "lib/netstandard2.0/Prism.DryIoc.Forms.dll": {}
         }
       },
-      "Prism.Forms/7.2.0.1367": {
+      "Prism.Forms/7.2.0.1422": {
         "type": "package",
         "dependencies": {
-          "Prism.Core": "7.2.0.1367",
+          "Prism.Core": "7.2.0.1422",
           "Xamarin.Forms": "3.6.0.344457"
         },
         "compile": {
@@ -872,6 +950,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "Prism.Unity.Forms/7.2.0.1422": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Forms": "7.2.0.1422",
+          "Unity.Container": "5.11.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
         }
       },
       "runtime.any.System.IO/4.3.0": {
@@ -1351,6 +1442,15 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1379,6 +1479,43 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "Unity.Abstractions/5.11.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        }
+      },
+      "Unity.Container/5.11.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "Unity.Abstractions": "5.11.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
         }
       },
       "Win2D.uwp/1.20.0": {
@@ -1421,7 +1558,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Prism.DryIoc.Forms": "7.2.0.1422",
+          "Newtonsoft.Json": "12.0.3",
+          "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.356",
           "sqlite-net-pcl": "1.6.292"
         },
@@ -1667,7 +1805,16 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Prism.Core/7.2.0.1367": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Prism.Core/7.2.0.1422": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Prism.dll": {}
@@ -1689,10 +1836,10 @@
           "lib/netstandard2.0/Prism.DryIoc.Forms.dll": {}
         }
       },
-      "Prism.Forms/7.2.0.1367": {
+      "Prism.Forms/7.2.0.1422": {
         "type": "package",
         "dependencies": {
-          "Prism.Core": "7.2.0.1367",
+          "Prism.Core": "7.2.0.1422",
           "Xamarin.Forms": "3.6.0.344457"
         },
         "compile": {
@@ -1700,6 +1847,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "Prism.Unity.Forms/7.2.0.1422": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Forms": "7.2.0.1422",
+          "Unity.Container": "5.11.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
         }
       },
       "runtime.aot.System.Globalization/4.3.0": {
@@ -2225,6 +2385,15 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2284,6 +2453,43 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "Unity.Abstractions/5.11.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        }
+      },
+      "Unity.Container/5.11.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "Unity.Abstractions": "5.11.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        }
+      },
       "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
@@ -2324,7 +2530,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Prism.DryIoc.Forms": "7.2.0.1422",
+          "Newtonsoft.Json": "12.0.3",
+          "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.356",
           "sqlite-net-pcl": "1.6.292"
         },
@@ -2569,7 +2776,16 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Prism.Core/7.2.0.1367": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Prism.Core/7.2.0.1422": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Prism.dll": {}
@@ -2591,10 +2807,10 @@
           "lib/netstandard2.0/Prism.DryIoc.Forms.dll": {}
         }
       },
-      "Prism.Forms/7.2.0.1367": {
+      "Prism.Forms/7.2.0.1422": {
         "type": "package",
         "dependencies": {
-          "Prism.Core": "7.2.0.1367",
+          "Prism.Core": "7.2.0.1422",
           "Xamarin.Forms": "3.6.0.344457"
         },
         "compile": {
@@ -2602,6 +2818,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "Prism.Unity.Forms/7.2.0.1422": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Forms": "7.2.0.1422",
+          "Unity.Container": "5.11.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
         }
       },
       "runtime.any.System.IO/4.3.0": {
@@ -2904,6 +3133,15 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2932,6 +3170,43 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "Unity.Abstractions/5.11.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        }
+      },
+      "Unity.Container/5.11.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "Unity.Abstractions": "5.11.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
         }
       },
       "Win2D.uwp/1.20.0": {
@@ -2971,7 +3246,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Prism.DryIoc.Forms": "7.2.0.1422",
+          "Newtonsoft.Json": "12.0.3",
+          "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.356",
           "sqlite-net-pcl": "1.6.292"
         },
@@ -3217,7 +3493,16 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Prism.Core/7.2.0.1367": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Prism.Core/7.2.0.1422": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Prism.dll": {}
@@ -3239,10 +3524,10 @@
           "lib/netstandard2.0/Prism.DryIoc.Forms.dll": {}
         }
       },
-      "Prism.Forms/7.2.0.1367": {
+      "Prism.Forms/7.2.0.1422": {
         "type": "package",
         "dependencies": {
-          "Prism.Core": "7.2.0.1367",
+          "Prism.Core": "7.2.0.1422",
           "Xamarin.Forms": "3.6.0.344457"
         },
         "compile": {
@@ -3250,6 +3535,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "Prism.Unity.Forms/7.2.0.1422": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Forms": "7.2.0.1422",
+          "Unity.Container": "5.11.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
         }
       },
       "runtime.any.System.IO/4.3.0": {
@@ -3729,6 +4027,15 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3757,6 +4064,43 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "Unity.Abstractions/5.11.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        }
+      },
+      "Unity.Container/5.11.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "Unity.Abstractions": "5.11.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
         }
       },
       "Win2D.uwp/1.20.0": {
@@ -3799,7 +4143,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Prism.DryIoc.Forms": "7.2.0.1422",
+          "Newtonsoft.Json": "12.0.3",
+          "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.356",
           "sqlite-net-pcl": "1.6.292"
         },
@@ -4045,7 +4390,16 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Prism.Core/7.2.0.1367": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Prism.Core/7.2.0.1422": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Prism.dll": {}
@@ -4067,10 +4421,10 @@
           "lib/netstandard2.0/Prism.DryIoc.Forms.dll": {}
         }
       },
-      "Prism.Forms/7.2.0.1367": {
+      "Prism.Forms/7.2.0.1422": {
         "type": "package",
         "dependencies": {
-          "Prism.Core": "7.2.0.1367",
+          "Prism.Core": "7.2.0.1422",
           "Xamarin.Forms": "3.6.0.344457"
         },
         "compile": {
@@ -4078,6 +4432,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "Prism.Unity.Forms/7.2.0.1422": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Forms": "7.2.0.1422",
+          "Unity.Container": "5.11.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
         }
       },
       "runtime.aot.System.Globalization/4.3.0": {
@@ -4603,6 +4970,15 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4662,6 +5038,43 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "Unity.Abstractions/5.11.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        }
+      },
+      "Unity.Container/5.11.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "Unity.Abstractions": "5.11.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        }
+      },
       "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
@@ -4702,7 +5115,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Prism.DryIoc.Forms": "7.2.0.1422",
+          "Newtonsoft.Json": "12.0.3",
+          "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.356",
           "sqlite-net-pcl": "1.6.292"
         },
@@ -4948,7 +5362,16 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Prism.Core/7.2.0.1367": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Prism.Core/7.2.0.1422": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Prism.dll": {}
@@ -4970,10 +5393,10 @@
           "lib/netstandard2.0/Prism.DryIoc.Forms.dll": {}
         }
       },
-      "Prism.Forms/7.2.0.1367": {
+      "Prism.Forms/7.2.0.1422": {
         "type": "package",
         "dependencies": {
-          "Prism.Core": "7.2.0.1367",
+          "Prism.Core": "7.2.0.1422",
           "Xamarin.Forms": "3.6.0.344457"
         },
         "compile": {
@@ -4981,6 +5404,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "Prism.Unity.Forms/7.2.0.1422": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Forms": "7.2.0.1422",
+          "Unity.Container": "5.11.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
         }
       },
       "runtime.any.System.IO/4.3.0": {
@@ -5460,6 +5896,15 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -5488,6 +5933,43 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "Unity.Abstractions/5.11.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        }
+      },
+      "Unity.Container/5.11.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "Unity.Abstractions": "5.11.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
         }
       },
       "Win2D.uwp/1.20.0": {
@@ -5530,7 +6012,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Prism.DryIoc.Forms": "7.2.0.1422",
+          "Newtonsoft.Json": "12.0.3",
+          "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.356",
           "sqlite-net-pcl": "1.6.292"
         },
@@ -5776,7 +6259,16 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Prism.Core/7.2.0.1367": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Prism.Core/7.2.0.1422": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Prism.dll": {}
@@ -5798,10 +6290,10 @@
           "lib/netstandard2.0/Prism.DryIoc.Forms.dll": {}
         }
       },
-      "Prism.Forms/7.2.0.1367": {
+      "Prism.Forms/7.2.0.1422": {
         "type": "package",
         "dependencies": {
-          "Prism.Core": "7.2.0.1367",
+          "Prism.Core": "7.2.0.1422",
           "Xamarin.Forms": "3.6.0.344457"
         },
         "compile": {
@@ -5809,6 +6301,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "Prism.Unity.Forms/7.2.0.1422": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Forms": "7.2.0.1422",
+          "Unity.Container": "5.11.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Unity.Forms.dll": {}
         }
       },
       "runtime.aot.System.Globalization/4.3.0": {
@@ -6334,6 +6839,15 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -6393,6 +6907,43 @@
           "lib/win8/_._": {}
         }
       },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "Unity.Abstractions/5.11.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Abstractions.dll": {}
+        }
+      },
+      "Unity.Container/5.11.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "Unity.Abstractions": "5.11.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Unity.Container.dll": {}
+        }
+      },
       "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
@@ -6433,7 +6984,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Prism.DryIoc.Forms": "7.2.0.1422",
+          "Newtonsoft.Json": "12.0.3",
+          "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.356",
           "sqlite-net-pcl": "1.6.292"
         },
@@ -6998,10 +7550,41 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Prism.Core/7.2.0.1367": {
-      "sha512": "vrz2M/Hr9ItcAUvnT+n76ak6qPQMgJfyTYFSKqphveb9ibohm70vzc0cWu1jkeBY5XPS9RbUluXMa9WQGM0kPw==",
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
       "type": "package",
-      "path": "prism.core/7.2.0.1367",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Prism.Core/7.2.0.1422": {
+      "sha512": "U6tZ4Iq+ELyK5PedRC6E20caZXXTmTYiw5evpv0M3WcfKgih9H5G5LDBlDl+65eC5Vb4lnOaUCAtckdEl2MRxA==",
+      "type": "package",
+      "path": "prism.core/7.2.0.1422",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7015,7 +7598,7 @@
         "lib/netstandard2.0/Prism.dll.mdb",
         "lib/netstandard2.0/Prism.pdb",
         "lib/netstandard2.0/Prism.xml",
-        "prism.core.7.2.0.1367.nupkg.sha512",
+        "prism.core.7.2.0.1422.nupkg.sha512",
         "prism.core.nuspec"
       ]
     },
@@ -7036,10 +7619,10 @@
         "prism.dryioc.forms.nuspec"
       ]
     },
-    "Prism.Forms/7.2.0.1367": {
-      "sha512": "zvYucENJ1HuArZU3sPSrwQobqoH80G4JcARMofl1MYpx3XJ4AZbS9DFNEF1taLCCpgsbsjWCARV190McDftFsg==",
+    "Prism.Forms/7.2.0.1422": {
+      "sha512": "wrSjIoSp2o8W0JdHx1f5K7pM48lSA2yraQ+QRjl5PLRPs5FhzMwhOA2G1YoD0mhE1WzwzJoBBMnDfDaoFudmyQ==",
       "type": "package",
-      "path": "prism.forms/7.2.0.1367",
+      "path": "prism.forms/7.2.0.1422",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7049,8 +7632,22 @@
         "lib/netstandard2.0/Prism.Forms.dll",
         "lib/netstandard2.0/Prism.Forms.pdb",
         "lib/netstandard2.0/Prism.Forms.xml",
-        "prism.forms.7.2.0.1367.nupkg.sha512",
+        "prism.forms.7.2.0.1422.nupkg.sha512",
         "prism.forms.nuspec"
+      ]
+    },
+    "Prism.Unity.Forms/7.2.0.1422": {
+      "sha512": "BZBAgGsMuq1LTfu6fAJiF5vMmcd5Vw+AefQhA53nWdp+MAU/U5NOlftSI8IbvgCvzDaKcfbEoibZcQo86JM9Pw==",
+      "type": "package",
+      "path": "prism.unity.forms/7.2.0.1422",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Prism.Unity.Forms.dll",
+        "lib/netstandard2.0/Prism.Unity.Forms.pdb",
+        "lib/netstandard2.0/Prism.Unity.Forms.xml",
+        "prism.unity.forms.7.2.0.1422.nupkg.sha512",
+        "prism.unity.forms.nuspec"
       ]
     },
     "runtime.any.System.IO/4.3.0": {
@@ -11159,6 +11756,31 @@
         "system.runtime.nuspec"
       ]
     },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "sha512": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Text.Encoding/4.3.0": {
       "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "type": "package",
@@ -11432,6 +12054,95 @@
         "ref/xamarinwatchos10/_._",
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.2": {
+      "sha512": "BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Unity.Abstractions/5.11.1": {
+      "sha512": "R5qJ8KSN2mptSqCG4SHBBs2PcRvo113uu18cNCbcx1nkezYGZnYBNadLPtDODE5KFLQBqLdW9XlaalxU275Qgg==",
+      "type": "package",
+      "path": "unity.abstractions/5.11.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Unity.Abstractions.dll",
+        "lib/net40/Unity.Abstractions.pdb",
+        "lib/net45/Unity.Abstractions.dll",
+        "lib/net45/Unity.Abstractions.pdb",
+        "lib/net46/Unity.Abstractions.dll",
+        "lib/net46/Unity.Abstractions.pdb",
+        "lib/net47/Unity.Abstractions.dll",
+        "lib/net47/Unity.Abstractions.pdb",
+        "lib/netcoreapp1.0/Unity.Abstractions.dll",
+        "lib/netcoreapp1.0/Unity.Abstractions.pdb",
+        "lib/netcoreapp2.0/Unity.Abstractions.dll",
+        "lib/netcoreapp2.0/Unity.Abstractions.pdb",
+        "lib/netstandard1.0/Unity.Abstractions.dll",
+        "lib/netstandard1.0/Unity.Abstractions.pdb",
+        "lib/netstandard2.0/Unity.Abstractions.dll",
+        "lib/netstandard2.0/Unity.Abstractions.pdb",
+        "unity.abstractions.5.11.1.nupkg.sha512",
+        "unity.abstractions.nuspec"
+      ]
+    },
+    "Unity.Container/5.11.1": {
+      "sha512": "pxeataMa9MB/ilLNcmy5OUrcvA2OnPMuMCTsw+zGgRPWx1oxkq6ap5bI+59htjAPe9awPDIU3YVk+yH0sfcOWQ==",
+      "type": "package",
+      "path": "unity.container/5.11.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Unity.Container.dll",
+        "lib/net40/Unity.Container.pdb",
+        "lib/net45/Unity.Container.dll",
+        "lib/net45/Unity.Container.pdb",
+        "lib/net46/Unity.Container.dll",
+        "lib/net46/Unity.Container.pdb",
+        "lib/net47/Unity.Container.dll",
+        "lib/net47/Unity.Container.pdb",
+        "lib/netcoreapp1.0/Unity.Container.dll",
+        "lib/netcoreapp1.0/Unity.Container.pdb",
+        "lib/netcoreapp2.0/Unity.Container.dll",
+        "lib/netcoreapp2.0/Unity.Container.pdb",
+        "lib/netstandard1.0/Unity.Container.dll",
+        "lib/netstandard1.0/Unity.Container.pdb",
+        "lib/netstandard2.0/Unity.Container.dll",
+        "lib/netstandard2.0/Unity.Container.pdb",
+        "unity.container.5.11.1.nupkg.sha512",
+        "unity.container.nuspec"
       ]
     },
     "Win2D.uwp/1.20.0": {
@@ -11722,23 +12433,6 @@
     }
   },
   "logs": [
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Prism.DryIoc.Forms from 7.2.0.1422 to 7.2.0.1367. Reference the package directly from the project to select a different version. \r\n FYMApp.UWP -> FYMApp -> Prism.DryIoc.Forms (>= 7.2.0.1422) \r\n FYMApp.UWP -> Prism.DryIoc.Forms (>= 7.2.0.1367)",
-      "libraryId": "Prism.DryIoc.Forms",
-      "targetGraphs": [
-        "UAP,Version=v10.0.16299",
-        "UAP,Version=v10.0.16299/win10-arm",
-        "UAP,Version=v10.0.16299/win10-arm-aot",
-        "UAP,Version=v10.0.16299/win10-arm64-aot",
-        "UAP,Version=v10.0.16299/win10-x64",
-        "UAP,Version=v10.0.16299/win10-x64-aot",
-        "UAP,Version=v10.0.16299/win10-x86",
-        "UAP,Version=v10.0.16299/win10-x86-aot"
-      ]
-    },
     {
       "code": "NU1605",
       "level": "Warning",
