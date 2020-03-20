@@ -999,7 +999,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Prism.Unity.Forms": "7.2.0.1422",
-          "Xamarin.Forms": "4.5.0.356",
+          "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -2511,7 +2511,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Thapelo.Selebedi\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
@@ -2520,7 +2520,7 @@
       "projectUniqueName": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp.Android\\FYMApp.Android.csproj",
       "projectName": "FYMApp.Android",
       "projectPath": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp.Android\\FYMApp.Android.csproj",
-      "packagesPath": "C:\\Users\\Thapelo.Selebedi\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
@@ -2528,7 +2528,7 @@
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Thapelo.Selebedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2587,5 +2587,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.5.0.396 to 4.5.0.356. Reference the package directly from the project to select a different version. \r\n FYMApp.Android -> FYMApp -> Xamarin.Forms (>= 4.5.0.396) \r\n FYMApp.Android -> Xamarin.Forms (>= 4.5.0.356)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v9.0"
+      ]
+    }
+  ]
 }

@@ -663,7 +663,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Prism.Unity.Forms": "7.2.0.1422",
-          "Xamarin.Forms": "4.5.0.356",
+          "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -1560,7 +1560,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Prism.Unity.Forms": "7.2.0.1422",
-          "Xamarin.Forms": "4.5.0.356",
+          "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -2532,7 +2532,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Prism.Unity.Forms": "7.2.0.1422",
-          "Xamarin.Forms": "4.5.0.356",
+          "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -3248,7 +3248,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Prism.Unity.Forms": "7.2.0.1422",
-          "Xamarin.Forms": "4.5.0.356",
+          "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -4145,7 +4145,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Prism.Unity.Forms": "7.2.0.1422",
-          "Xamarin.Forms": "4.5.0.356",
+          "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -5117,7 +5117,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Prism.Unity.Forms": "7.2.0.1422",
-          "Xamarin.Forms": "4.5.0.356",
+          "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -6014,7 +6014,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Prism.Unity.Forms": "7.2.0.1422",
-          "Xamarin.Forms": "4.5.0.356",
+          "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -6986,7 +6986,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Prism.Unity.Forms": "7.2.0.1422",
-          "Xamarin.Forms": "4.5.0.356",
+          "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -7422,7 +7422,7 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -12345,7 +12345,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Thapelo.Selebedi\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
@@ -12355,7 +12355,7 @@
       "projectUniqueName": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp.UWP\\FYMApp.UWP.csproj",
       "projectName": "FYMApp.UWP",
       "projectPath": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp.UWP\\FYMApp.UWP.csproj",
-      "packagesPath": "C:\\Users\\Thapelo.Selebedi\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
@@ -12364,7 +12364,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Thapelo.Selebedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -12437,7 +12437,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 4.5.0.356 to 3.6.0.344457. Reference the package directly from the project to select a different version. \r\n FYMApp.UWP -> FYMApp -> Xamarin.Forms (>= 4.5.0.356) \r\n FYMApp.UWP -> Xamarin.Forms (>= 3.6.0.344457)",
+      "message": "Detected package downgrade: Xamarin.Forms from 4.5.0.396 to 3.6.0.344457. Reference the package directly from the project to select a different version. \r\n FYMApp.UWP -> FYMApp -> Xamarin.Forms (>= 4.5.0.396) \r\n FYMApp.UWP -> Xamarin.Forms (>= 3.6.0.344457)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "UAP,Version=v10.0.16299",

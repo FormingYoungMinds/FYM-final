@@ -300,7 +300,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Prism.Unity.Forms": "7.2.0.1422",
-          "Xamarin.Forms": "4.5.0.356",
+          "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -610,7 +610,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Prism.Unity.Forms": "7.2.0.1422",
-          "Xamarin.Forms": "4.5.0.356",
+          "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -920,7 +920,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Prism.Unity.Forms": "7.2.0.1422",
-          "Xamarin.Forms": "4.5.0.356",
+          "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -1230,7 +1230,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Prism.Unity.Forms": "7.2.0.1422",
-          "Xamarin.Forms": "4.5.0.356",
+          "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -1811,7 +1811,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Thapelo.Selebedi\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
@@ -1820,7 +1820,7 @@
       "projectUniqueName": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp.iOS\\FYMApp.iOS.csproj",
       "projectName": "FYMApp.iOS",
       "projectPath": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp.iOS\\FYMApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\Thapelo.Selebedi\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
@@ -1828,7 +1828,7 @@
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Thapelo.Selebedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1880,7 +1880,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 4.5.0.356 to 3.6.0.344457. Reference the package directly from the project to select a different version. \r\n FYMApp.iOS -> FYMApp -> Xamarin.Forms (>= 4.5.0.356) \r\n FYMApp.iOS -> Xamarin.Forms (>= 3.6.0.344457)",
+      "message": "Detected package downgrade: Xamarin.Forms from 4.5.0.396 to 3.6.0.344457. Reference the package directly from the project to select a different version. \r\n FYMApp.iOS -> FYMApp -> Xamarin.Forms (>= 4.5.0.396) \r\n FYMApp.iOS -> Xamarin.Forms (>= 3.6.0.344457)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",

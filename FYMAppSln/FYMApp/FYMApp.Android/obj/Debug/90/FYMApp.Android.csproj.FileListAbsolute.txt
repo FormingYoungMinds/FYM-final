@@ -11,8 +11,6 @@ C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\build.props
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\adb.props
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\FYMApp.Android.csprojAssemblyReference.cache
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
-C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\resourcepaths.cache
-C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\resourcecache.stamp
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\res.flag
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\flata\6554E5A837DFF63E.stamp
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\flata\6554E5A837DFF63E.flata
@@ -404,7 +402,6 @@ C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\app_shared_lib
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\app_shared_libraries\x86\libxamarin-app.so
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\app_shared_libraries\x86_64\libxamarin-app.so
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\android\bin\classes.dex
-C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\stamp\_BuildAdditionalResourcesCache.stamp
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\stamp\_CleanIntermediateIfNuGetsChange.stamp
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\stamp\_CompileToDalvik.stamp
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\stamp\_ConvertCustomView.stamp
@@ -488,3 +485,15 @@ C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\android\assets
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\android\assets\System.Runtime.Extensions.dll
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\android\assets\System.Threading.dll
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\android\assets\System.Threading.Tasks.dll
+C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\bin\Debug\com.companyname.appname.aab
+C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\FYMApp.Android.csproj.CoreCompileInputs.cache
+C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\android\assets\Prism.Unity.Forms.dll
+C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\android\assets\Prism.Unity.Forms.pdb
+C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\android\assets\System.Threading.Tasks.Extensions.dll
+C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\android\assets\Unity.Abstractions.dll
+C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\android\assets\Unity.Abstractions.pdb
+C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\android\assets\Unity.Container.dll
+C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\android\assets\Unity.Container.pdb
+C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp.Android\obj\Debug\90\android\AndroidManifest.xml

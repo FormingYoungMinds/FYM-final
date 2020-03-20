@@ -156,7 +156,7 @@
           "lib/netstandard2.0/Unity.Container.dll": {}
         }
       },
-      "Xamarin.Forms/4.5.0.356": {
+      "Xamarin.Forms/4.5.0.396": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -606,14 +606,20 @@
         "unity.container.nuspec"
       ]
     },
-    "Xamarin.Forms/4.5.0.356": {
-      "sha512": "aOg3sUA2xuLhyhtLuihrDVFZ5ZCa71pgojyz/HdjEH7eW5HxEws+IIgvKTYUZbFOIGD7eK/f3x1lYj6HI/o+jg==",
+    "Xamarin.Forms/4.5.0.396": {
+      "sha512": "4yU8Dj83+/2PFTd76Q88G/fuVQ5MryvadGbc26ZqwQiLOUdMVLu5Otmzp51cWvJfwSgTI97fzPfE2urHKbF/XA==",
       "type": "package",
-      "path": "xamarin.forms/4.5.0.356",
+      "path": "xamarin.forms/4.5.0.396",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/MonoAndroid10/proguard.cfg",
+        "build/XCODE10/Xamarin.Forms.Platform.iOS.dll",
+        "build/XCODE10/Xamarin.Forms.Platform.iOS.pdb",
+        "build/XCODE10/Xamarin.Forms.Platform.macOS.dll",
+        "build/XCODE11/Xamarin.Forms.Platform.iOS.dll",
+        "build/XCODE11/Xamarin.Forms.Platform.iOS.pdb",
+        "build/XCODE11/Xamarin.Forms.Platform.macOS.dll",
         "build/Xamarin.Forms.DefaultItems.props",
         "build/Xamarin.Forms.DefaultItems.targets",
         "build/Xamarin.Forms.props",
@@ -704,7 +710,6 @@
         "lib/Xamarin.Mac/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Core.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Platform.dll",
-        "lib/Xamarin.Mac/Xamarin.Forms.Platform.macOS.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Xaml.dll",
         "lib/Xamarin.iOS10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/Xamarin.iOS10/Design/Xamarin.Forms.Xaml.Design.dll",
@@ -712,8 +717,6 @@
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.pdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.pdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.pdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.xml",
@@ -884,7 +887,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.5.0.356.nupkg.sha512",
+        "xamarin.forms.4.5.0.396.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
@@ -894,14 +897,13 @@
       "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 12.0.3",
       "Prism.Unity.Forms >= 7.2.0.1422",
-      "Xamarin.Forms >= 4.5.0.356",
+      "Xamarin.Forms >= 4.5.0.396",
       "sqlite-net-pcl >= 1.6.292"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Thapelo.Selebedi\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -909,15 +911,14 @@
       "projectUniqueName": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp\\FYMApp.csproj",
       "projectName": "FYMApp",
       "projectPath": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp\\FYMApp.csproj",
-      "packagesPath": "C:\\Users\\Thapelo.Selebedi\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Thapelo.Selebedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -958,7 +959,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.5.0.356, )"
+            "version": "[4.5.0.396, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",
@@ -975,7 +976,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

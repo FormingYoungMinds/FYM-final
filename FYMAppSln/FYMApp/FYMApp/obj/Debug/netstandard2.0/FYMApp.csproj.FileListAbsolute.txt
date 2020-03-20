@@ -10,3 +10,4 @@ C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp\obj\Debug\netstandard2.0\FYMApp.dll
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp\obj\Debug\netstandard2.0\FYMApp.pdb
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp\obj\Debug\netstandard2.0\Views\LanguageSelectionPage.xaml.g.cs
 C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Xamarin\FYM-final\FYMAppSln\FYMApp\FYMApp\obj\Debug\netstandard2.0\FYMApp.csproj.CoreCompileInputs.cache

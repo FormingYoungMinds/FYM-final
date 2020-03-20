@@ -10,7 +10,7 @@
         "projectUniqueName": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp.iOS\\FYMApp.iOS.csproj",
         "projectName": "FYMApp.iOS",
         "projectPath": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp.iOS\\FYMApp.iOS.csproj",
-        "packagesPath": "C:\\Users\\Thapelo.Selebedi\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
@@ -18,7 +18,7 @@
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Thapelo.Selebedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -71,15 +71,14 @@
         "projectUniqueName": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp\\FYMApp.csproj",
         "projectName": "FYMApp",
         "projectPath": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp\\FYMApp.csproj",
-        "packagesPath": "C:\\Users\\Thapelo.Selebedi\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Xamarin\\FYM-final\\FYMAppSln\\FYMApp\\FYMApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Thapelo.Selebedi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -120,7 +119,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.5.0.356, )"
+              "version": "[4.5.0.396, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
@@ -137,7 +136,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
