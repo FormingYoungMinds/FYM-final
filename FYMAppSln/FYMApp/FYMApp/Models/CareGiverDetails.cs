@@ -5,7 +5,7 @@ using System.Text;
 
 namespace FYMApp.Models
 {
-    class CareGiverDetails
+    public class CareGiverDetails
     {
         [PrimaryKey, AutoIncrement]
 

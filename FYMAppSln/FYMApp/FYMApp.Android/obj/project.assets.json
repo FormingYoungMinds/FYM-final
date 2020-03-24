@@ -998,6 +998,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Prism.DryIoc.Forms": "7.2.0.1422",
           "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"

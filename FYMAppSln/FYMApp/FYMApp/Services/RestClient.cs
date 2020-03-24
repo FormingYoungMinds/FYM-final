@@ -12,11 +12,11 @@ namespace FYMApp.Services
     {
         private const string LoginWebServiceUrl = "";
 
-        public async Task<bool> CheckLogin(string email, string password)
+        public async Task<bool> CheckLogin(int cellnumber, string password)
         {
             var httpClient = new HttpClient();
 
-            var credentials = new { email = email, password = password };
+            var credentials = new { cellnumber = cellnumber, password = password };
 
             var stringContent = JsonConvert.SerializeObject(credentials);
 

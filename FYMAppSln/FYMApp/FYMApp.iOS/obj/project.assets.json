@@ -299,6 +299,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Prism.DryIoc.Forms": "7.2.0.1422",
           "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
@@ -609,6 +610,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Prism.DryIoc.Forms": "7.2.0.1422",
           "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
@@ -919,6 +921,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Prism.DryIoc.Forms": "7.2.0.1422",
           "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
@@ -1229,6 +1232,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Prism.DryIoc.Forms": "7.2.0.1422",
           "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
@@ -1876,6 +1880,19 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Prism.DryIoc.Forms from 7.2.0.1422 to 7.2.0.1367. Reference the package directly from the project to select a different version. \r\n FYMApp.iOS -> FYMApp -> Prism.DryIoc.Forms (>= 7.2.0.1422) \r\n FYMApp.iOS -> Prism.DryIoc.Forms (>= 7.2.0.1367)",
+      "libraryId": "Prism.DryIoc.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
     {
       "code": "NU1605",
       "level": "Warning",

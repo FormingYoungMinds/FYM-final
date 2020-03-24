@@ -662,6 +662,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Prism.DryIoc.Forms": "7.2.0.1422",
           "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
@@ -1559,6 +1560,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Prism.DryIoc.Forms": "7.2.0.1422",
           "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
@@ -2531,6 +2533,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Prism.DryIoc.Forms": "7.2.0.1422",
           "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
@@ -3247,6 +3250,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Prism.DryIoc.Forms": "7.2.0.1422",
           "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
@@ -4144,6 +4148,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Prism.DryIoc.Forms": "7.2.0.1422",
           "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
@@ -5116,6 +5121,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Prism.DryIoc.Forms": "7.2.0.1422",
           "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
@@ -6013,6 +6019,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Prism.DryIoc.Forms": "7.2.0.1422",
           "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
@@ -6985,6 +6992,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
+          "Prism.DryIoc.Forms": "7.2.0.1422",
           "Prism.Unity.Forms": "7.2.0.1422",
           "Xamarin.Forms": "4.5.0.396",
           "sqlite-net-pcl": "1.6.292"
@@ -12433,6 +12441,23 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Prism.DryIoc.Forms from 7.2.0.1422 to 7.2.0.1367. Reference the package directly from the project to select a different version. \r\n FYMApp.UWP -> FYMApp -> Prism.DryIoc.Forms (>= 7.2.0.1422) \r\n FYMApp.UWP -> Prism.DryIoc.Forms (>= 7.2.0.1367)",
+      "libraryId": "Prism.DryIoc.Forms",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299",
+        "UAP,Version=v10.0.16299/win10-arm",
+        "UAP,Version=v10.0.16299/win10-arm-aot",
+        "UAP,Version=v10.0.16299/win10-arm64-aot",
+        "UAP,Version=v10.0.16299/win10-x64",
+        "UAP,Version=v10.0.16299/win10-x64-aot",
+        "UAP,Version=v10.0.16299/win10-x86",
+        "UAP,Version=v10.0.16299/win10-x86-aot"
+      ]
+    },
     {
       "code": "NU1605",
       "level": "Warning",
