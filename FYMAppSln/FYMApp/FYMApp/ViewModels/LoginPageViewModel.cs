@@ -51,5 +51,25 @@ namespace FYMApp.ViewModels
 
             await NavigationService.NavigateAsync("MainPage");
         }
+
+        private DelegateCommand _registerCommand;
+
+        public DelegateCommand RegisterCommand =>
+            _registerCommand ?? (_registerCommand = new DelegateCommand(ExecuteRegisterCommand));
+
+        async void ExecuteRegisterCommand()
+        {
+            await NavigationService.NavigateAsync("SignUpPage");
+        }
+
+        private DelegateCommand _LanguageCommand;
+
+        public DelegateCommand LanguageCommand =>
+            _LanguageCommand ?? (_LanguageCommand = new DelegateCommand(ExecuteLanguageCommand));
+
+        async void ExecuteLanguageCommand()
+        {
+            await NavigationService.NavigateAsync("LanguageSelectionPage");
+        }
     }
 }

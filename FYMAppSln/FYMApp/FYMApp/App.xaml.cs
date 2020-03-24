@@ -4,6 +4,8 @@ using FYMApp.ViewModels;
 using FYMApp.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using FYMApp.Services.Interfaces;
+using FYMApp.Services;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace FYMApp
@@ -28,6 +30,8 @@ namespace FYMApp
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            containerRegistry.Register<IDatabase, CareGiverDataBase>();
+
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<LanguageSelectionPage, LanguageSelectionPageViewModel>();

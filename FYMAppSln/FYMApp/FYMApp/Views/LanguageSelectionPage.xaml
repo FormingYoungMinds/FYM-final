@@ -3,10 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="FYMApp.Views.LanguageSelectionPage">
+             x:Class="FYMApp.Views.LanguageSelectionPage" Title="Select Language">
 
-
-
-    <Button Text="English" Command="{Binding EnglishCommand}"  CornerRadius="30" BackgroundColor="LightBlue"/>
+    <ContentPage.Content>
+        <StackLayout x:Name="layout">
+            <Image Source="splash_logo.png" Aspect="AspectFill" HeightRequest="400" />
+            <Button BackgroundColor="Accent" VerticalOptions="Center"
+        HorizontalOptions="FillAndExpand" Text="English" />
+            <Button BackgroundColor="SkyBlue" VerticalOptions="Center"
+        HorizontalOptions="FillAndExpand" Text="isiXhosa" />
+            <Button  BackgroundColor="LightPink" VerticalOptions="Center"
+        HorizontalOptions="FillAndExpand" Text="Afrikaans" />
+        </StackLayout>
+    </ContentPage.Content>
 
 </ContentPage>
