@@ -28,7 +28,7 @@ namespace FYMWebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<FYMAppContext>(opt =>
-               opt.UseSqlServer(Configuration.GetConnectionString("StudentDetails")));
+               opt.UseSqlServer(Configuration.GetConnectionString("CareGiverDetails")));
             services.AddControllers();
         }
 

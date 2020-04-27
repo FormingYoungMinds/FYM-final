@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="FYMApp.Views.SecurityandSafetyPage" BackgroundImageSource="WarningSigns.jpeg">
+
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Padding="20" Spacing="30" >
+                <Button Text="ENVIRONMENTAL" HorizontalOptions="Center" Command="{Binding SignUpCommand}" WidthRequest="350" TextColor="White" HeightRequest="70" CornerRadius="20" BackgroundColor="Black" FontSize="Large"/>
+                <Button Text="PERSONAL" HorizontalOptions="Center" Command="{Binding SignUpCommand}" WidthRequest="350" TextColor="White" HeightRequest="70" CornerRadius="20" BackgroundColor="Black" FontSize="Large"/>
+            </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

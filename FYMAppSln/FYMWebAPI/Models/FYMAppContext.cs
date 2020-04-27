@@ -15,5 +15,6 @@ namespace FYMWebAPI.Models
         }
 
         public DbSet<User> Users { get; set; }
+        public DbSet<CareGiverDetails> CareGiversDetails { get; set; }
     }
 }

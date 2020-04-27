@@ -3,37 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="FYMApp.Views.SignUpPage">
+             x:Class="FYMApp.Views.SignUpPage" BackgroundImageSource="RandomKid.jpeg">
 
-    <StackLayout BackgroundColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-
-        <Image Source="Logo.png" HorizontalOptions="CenterAndExpand">
-
-        </Image>
-
-        <StackLayout Margin="0" VerticalOptions="StartAndExpand">
-            <StackLayout>
+    <StackLayout  HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
 
 
-                <Entry Text="{Binding Name}" Placeholder="Name" WidthRequest="200" HorizontalOptions="Center" HorizontalTextAlignment="Center" PlaceholderColor="#8585CE"/>
+        <Entry Text="{Binding Name}" Placeholder="Name" PlaceholderColor="Black" WidthRequest="200" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+        <Entry Text="{Binding Name}" Placeholder="Surname" PlaceholderColor="Black" WidthRequest="200" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+        <Entry Text="{Binding Cellnumber}" Placeholder="Cellphone" PlaceholderColor="Black" WidthRequest="200" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+        <Entry  Text="{Binding Password}" Placeholder="Password" PlaceholderColor="Black" WidthRequest="200" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
+        <Entry  Text="{Binding ConfirmPassword}" Placeholder="Confirm Password" PlaceholderColor="Black" WidthRequest="200" HorizontalOptions="Center" HorizontalTextAlignment="Center" />
 
+        <Button Text="SignUp" TextColor="Black"  FontAttributes="Bold" FontSize="Medium" HorizontalOptions="Center" Command="{Binding SignUpCommand}" WidthRequest="100" CornerRadius="20" BackgroundColor="White"/>
 
-                <Entry Text="{Binding Name}" Placeholder="Surname" WidthRequest="200" HorizontalOptions="Center" HorizontalTextAlignment="Center" PlaceholderColor="#8585CE"/>
-
-
-                <Entry Text="{Binding Cellnumber}" Placeholder="Cellphone" WidthRequest="200" HorizontalOptions="Center" HorizontalTextAlignment="Center" PlaceholderColor="#8585CE"/>
-
-
-                <Entry  Text="{Binding Password}" Placeholder="Password" WidthRequest="200" HorizontalOptions="Center" HorizontalTextAlignment="Center" PlaceholderColor="#8585CE"/>
-
-
-
-                <Entry  Text="{Binding ConfirmPassword}" Placeholder="Confirm Password" WidthRequest="200" HorizontalOptions="Center" HorizontalTextAlignment="Center" PlaceholderColor="#8585CE"/>
-
-                <Button Text="SignUp" HorizontalOptions="Center" Command="{Binding SignUpCommand}" WidthRequest="250" TextColor="White"  CornerRadius="20" BackgroundColor="HotPink"/>
-
-            </StackLayout>
-        </StackLayout>
     </StackLayout>
 
 

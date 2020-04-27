@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="FYMApp.Views.ContentList" BackgroundImageSource="RandomKid.jpeg" >
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="EARLY DEVELOPMENT AND LEARNING AREAS (EDLA)" TextColor="Black" FontSize="Large" HorizontalTextAlignment="Center"  FontAttributes="Bold" HorizontalOptions="Center"/>
+            <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Padding="20" Spacing="10">
+            <Button Text="1. WELLBEING" HorizontalOptions="Center" Command="{Binding SignUpCommand}" WidthRequest="350" TextColor="Black" HeightRequest="70" CornerRadius="20" BackgroundColor="Transparent" FontSize="Medium" FontAttributes="Bold" BorderColor="Black" BorderWidth="2" />
+            <Button Text="2. IDENTITY AND BELONGING" HorizontalOptions="Center" Command="{Binding SignUpCommand}" WidthRequest="350" TextColor="Black" HeightRequest="70" CornerRadius="20" BackgroundColor="Transparent" FontSize="Medium" FontAttributes="Bold" BorderColor="Black" BorderWidth="2" />
+            <Button Text="3. COMMUNICATION" HorizontalOptions="Center" Command="{Binding SignUpCommand}" WidthRequest="350" TextColor="Black" HeightRequest="70" CornerRadius="20" BackgroundColor="Transparent" FontSize="Medium" FontAttributes="Bold" BorderColor="Black" BorderWidth="2" />
+            <Button Text="4. EXPLORING MATHEMATICS" HorizontalOptions="Center" Command="{Binding SignUpCommand}" WidthRequest="350" TextColor="Black" HeightRequest="70" CornerRadius="20" BackgroundColor="Transparent" FontSize="Medium" FontAttributes="Bold" BorderColor="Black" BorderWidth="2" />
+            <Button Text="5. CREATIVITY" HorizontalOptions="Center" Command="{Binding SignUpCommand}" WidthRequest="350" TextColor="Black" HeightRequest="70" CornerRadius="20" BackgroundColor="Transparent" FontSize="Medium" FontAttributes="Bold" BorderColor="Black" BorderWidth="2" />
+            <Button Text="6. KNOWLEDGE AND UNDERSTANDING THE WORLD" HorizontalOptions="Center" Command="{Binding SignUpCommand}" WidthRequest="350" TextColor="Black" HeightRequest="70" CornerRadius="20" BackgroundColor="Transparent" FontSize="Medium" FontAttributes="Bold" BorderColor="Black" BorderWidth="2" />
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

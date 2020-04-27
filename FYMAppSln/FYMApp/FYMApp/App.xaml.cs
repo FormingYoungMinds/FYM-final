@@ -37,6 +37,14 @@ namespace FYMApp
             containerRegistry.RegisterForNavigation<LanguageSelectionPage, LanguageSelectionPageViewModel>();
             containerRegistry.RegisterForNavigation<LoginPage, LoginPageViewModel>();
             containerRegistry.RegisterForNavigation<SignUpPage, SignUpPageViewModel>();
+            containerRegistry.RegisterForNavigation<EmotionalWellBeingPage, EmotionalWellBeingPageViewModel>();
+
+            containerRegistry.RegisterForNavigation<SecurityandSafetyPage, SecurityandSafetyPageViewModel>();
+            containerRegistry.RegisterForNavigation<NutritionPage, NutritionPageViewModel>();
+            containerRegistry.RegisterForNavigation<HygienePage, HygienePageViewModel>();
+            containerRegistry.RegisterForNavigation<WellbeingList, WellbeingListViewModel>();
+            containerRegistry.RegisterForNavigation<ContentList, ContentListViewModel>();
+            containerRegistry.RegisterForNavigation<AboutPage, AboutPageViewModel>();
         }
     }
 }

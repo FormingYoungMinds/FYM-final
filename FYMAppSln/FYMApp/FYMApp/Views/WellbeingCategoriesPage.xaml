@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="FYMApp.Views.WellbeingList" BackgroundImageSource="RandomKid.jpeg" >
+
+    <StackLayout Spacing="30" VerticalOptions="FillAndExpand" Margin="10">
+        <Label Text="" TextColor="Black" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="Center" />
+
+    <StackLayout Spacing="30" VerticalOptions="FillAndExpand" >
+        <Button BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="10" Text="NUTRITION" TextColor="Black" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Button BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="10" Text="HYGIENE" TextColor="Black" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" />
+            <Button BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="10" Text="SAFETY AND SECURITY" TextColor="Black" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" />
+            <Button BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="10" Text="PHYSICAL WELLBEING" TextColor="Black" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center" />
+            <Button BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="10" Text="EMOTIONAL WELLBEING" TextColor="Black" FontSize="Large" FontAttributes="Bold" HorizontalOptions="Center"  />
+    </StackLayout>
+    </StackLayout>
+
+</ContentPage>

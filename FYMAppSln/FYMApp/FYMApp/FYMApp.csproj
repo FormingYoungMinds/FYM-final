@@ -13,13 +13,52 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\NutritionPage.xaml.cs">
+      <DependentUpon>NutritionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\HygienePage.xaml.cs">
+      <DependentUpon>HygienePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\EmotionalWellBeingPage.xaml.cs">
+      <DependentUpon>EmotionalWellBeingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\SecurityandSafetyPage.xaml.cs">
+      <DependentUpon>SecurityandSafetyPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\WellbeingCategoriesPage.xaml.cs">
+      <DependentUpon>WellbeingCategoriesPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\AboutPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ContentList.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\LanguageSelectionPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\LoginPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Views\SecurityandSafetyPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\NutritionPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\HygienePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\EmotionalWellBeingPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\SignUpPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\WellbeingCategoriesPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

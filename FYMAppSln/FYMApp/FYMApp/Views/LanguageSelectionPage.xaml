@@ -3,17 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="FYMApp.Views.LanguageSelectionPage" Title="Select Language">
+             x:Class="FYMApp.Views.LanguageSelectionPage" Title="Select Language" BackgroundImageSource="RandomKid.jpeg">
 
     <ContentPage.Content>
-        <StackLayout x:Name="layout">
-            <Image Source="splash_logo.png" Aspect="AspectFill" HeightRequest="400" />
-            <Button BackgroundColor="Accent" VerticalOptions="Center"
-        HorizontalOptions="FillAndExpand" Text="English" />
-            <Button BackgroundColor="SkyBlue" VerticalOptions="Center"
-        HorizontalOptions="FillAndExpand" Text="isiXhosa" />
-            <Button  BackgroundColor="LightPink" VerticalOptions="Center"
-        HorizontalOptions="FillAndExpand" Text="Afrikaans" />
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Padding="20" Spacing="30">
+            <Button Text="ENGLISH" HorizontalOptions="Center" Command="{Binding SignUpCommand}" WidthRequest="350" TextColor="Black" HeightRequest="70" CornerRadius="20" BackgroundColor="Transparent" FontSize="Large" FontAttributes="Bold" BorderColor="Black" BorderWidth="2" />
+            <Button Text="AFRIKAANS" HorizontalOptions="Center" Command="{Binding SignUpCommand}" WidthRequest="350" TextColor="Black" HeightRequest="70" CornerRadius="20" BackgroundColor="Transparent" FontSize="Large" FontAttributes="Bold" BorderColor="Black" BorderWidth="2" />
+            <Button Text="isiXHOSA" HorizontalOptions="Center" Command="{Binding SignUpCommand}" WidthRequest="350" TextColor="Black" HeightRequest="70" CornerRadius="20" BackgroundColor="Transparent" FontSize="Large" FontAttributes="Bold" BorderColor="Black" BorderWidth="2" />
         </StackLayout>
     </ContentPage.Content>
 
