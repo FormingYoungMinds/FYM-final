@@ -6,9 +6,9 @@ using System.Linq;
 
 namespace FYMApp.ViewModels
 {
-    public class WellbeingListViewModel : BindableBase
+    public class FoodActivityViewModel : BindableBase
     {
-        public WellbeingListViewModel()
+        public FoodActivityViewModel()
         {
 
         }

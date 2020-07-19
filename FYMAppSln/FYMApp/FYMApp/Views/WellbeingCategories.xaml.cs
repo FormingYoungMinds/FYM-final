@@ -2,9 +2,9 @@
 
 namespace FYMApp.Views
 {
-    public partial class WellbeingList : ContentPage
+    public partial class WellbeingCategories : ContentPage
     {
-        public WellbeingList()
+        public WellbeingCategories()
         {
             InitializeComponent();
         }

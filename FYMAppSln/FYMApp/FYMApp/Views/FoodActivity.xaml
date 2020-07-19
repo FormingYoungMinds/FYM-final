@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="FYMApp.Views.FoodActivity" BackgroundColor="#43548B">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Meal Time" 
+                   FontSize="Large"
+                   HorizontalOptions="Center"
+                   TextColor="Black"/>
+
+            <Frame CornerRadius="100"
+                   IsClippedToBounds="True"
+                   HeightRequest="500"
+                    WidthRequest="200"
+                    HorizontalOptions="CenterAndExpand"
+                   Padding="0">
+                <Image Source="bread.jpeg"
+                       Aspect="Fill"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center"/>
+            </Frame>
+            <ScrollView VerticalScrollBarVisibility="Always" VerticalOptions="FillAndExpand" Margin="10">
+                <Label TextColor="White" FontAttributes="Bold" FontSize="Medium">
+                    <Label.Text>
+                        -Establish a meal schedule for the duration of the day.
+                        
+-Allow children to partake in meal preparation such as setting the table. 
+                        
+-Teach children about table etiquette
+                        
+-Provide children with a variety of foods.
+                        
+-Promote locally bought and traditional food.
+                        
+-Provide children with small portions of food at a time allowing them to finish their food will give them a sense of achievement.
+                        
+-Encourage children to ask for more food instead of having too much food and then wasting it.
+                        
+                              Activity 1. EDLA; 1,3,5,6
+                        
+ Requirements
+ -None
+
+Exercise: Discussion
+
+Discuss different types of food 
+with children 
+-Food Groups (Veg/Fruit)
+-How it is harvest (Ground/Tree)
+-Healthy vs. unhealthy
+
+Activity 2. EDLA: 1,3,5,6
+
+Requirements: 
+-A3 Cardboard/Paper
+-Magazines/Newspaper/Food wrappers
+-scissor
+-pritt/prestick/glue
+-Crayons/Kokki/Colour pens
+
+Exercise: Poster
+-Allow children to identify different type of
+food as discussed in previous exercise 
+in magazines/newspaper
+-Allow children to cut the food out paste it
+in the relevant categories (as discussed in 
+previous exercise)
+-Make different types of posters
+-Throughout exercise as open ended 
+questions about the food eg:
+- What type of fruit is this?
+-Where does this food come from?
+-Who likes this food?
+
+Activity 3: EDLA 1,3,5,6
+
+Requirements:
+-None
+
+Exercise: Sing
+-Introduce children to different songs, 
+nursery rhymes about food.
+-Focus on a variety of songs including
+traditional songs
+
+Activity 4: EDLA, 1,3,5,6
+
+Requirements:
+-Empty shopping bags from local shops
+-Empty plastic cooldrink bottles
+-Empty food plastics eg, bread plastic
+-Empty Egg box
+-Old newspaper
+-Plastic utensils
+-Medium sized stones
+
+Exercise: Role Play (Grocery Shopping/
+Cooking)
+-Group children 
+-Allocate each child a role eg farmer, 
+customer, store cashier
+-Children to role play the different activities
+that takes place in each area eg.
+on the farm, food store, in the kitchen.
+-This teaches child food ecosystem from 
+the time of its production until its used in
+their homes to make a meal.
+-Sing songs, rhymes about food
+
+Activity 5: EDLA 1,2,3,4,5,6,
+
+Requirements:
+-Different fruit/Vegetables
+
+Exercise: Taste Testing
+- Divide
+                    </Label.Text>
+                </Label>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+  
+</ContentPage>

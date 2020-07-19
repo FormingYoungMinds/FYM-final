@@ -11,24 +11,33 @@ namespace FYMApp.ViewModels
             _navigationService = navigationService;
         }
 
+        private INavigationService _navigationService;
+
         private DelegateCommand _navigateCommand;
         public DelegateCommand NavigateCommand =>
             _navigateCommand ?? (_navigateCommand = new DelegateCommand(ExecuteNavigateCommand));
-
-        private DelegateCommand _navigationCommand;
-        private INavigationService _navigationService;
-
-        public DelegateCommand NavigationCommand =>
-            _navigationCommand ?? (_navigationCommand = new DelegateCommand(ExcuteNavigationCommand));
 
         async void ExecuteNavigateCommand()
         {
             await NavigationService.NavigateAsync("LoginPage");
         }
 
-        async void ExcuteNavigationCommand()
+        private DelegateCommand _navigationCommand;
+        public DelegateCommand NavigationCommand =>
+            _navigationCommand ?? (_navigationCommand = new DelegateCommand(ExecuteNavigationCommand));
+
+        async void ExecuteNavigationCommand()
         {
             await NavigationService.NavigateAsync("SignUpPage");
+        }
+
+        private DelegateCommand _contentListPageCommand;
+        public DelegateCommand ContentListPageCommand =>
+            _contentListPageCommand ?? (_contentListPageCommand = new DelegateCommand(ExecuteContentListPageCommand));
+
+        async void ExecuteContentListPageCommand()
+        {
+            await NavigationService.NavigateAsync("ContentList");
         }
     }
 }

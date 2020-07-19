@@ -13,8 +13,8 @@
           "Newtonsoft.Json": "12.0.3",
           "Prism.DryIoc.Forms": "7.2.0.1422",
           "Prism.Unity.Forms": "7.2.0.1422",
-          "Xamarin.Forms": "4.5.0.396",
-          "sqlite-net-pcl": "1.6.292"
+          "Xamarin.Forms": "4.7.0.1142",
+          "sqlite-net-pcl": "1.7.335"
         },
         "runtime": {
           "FYMApp.dll": {}
@@ -69,7 +69,7 @@
       "Prism.Forms/7.2.0.1422": {
         "dependencies": {
           "Prism.Core": "7.2.0.1422",
-          "Xamarin.Forms": "4.5.0.396"
+          "Xamarin.Forms": "4.7.0.1142"
         },
         "runtime": {
           "lib/netstandard2.0/Prism.Forms.dll": {
@@ -90,42 +90,58 @@
           }
         }
       },
-      "sqlite-net-pcl/1.6.292": {
+      "sqlite-net-pcl/1.7.335": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3",
-          "SQLitePCLRaw.bundle_green": "1.1.13"
+          "SQLitePCLRaw.bundle_green": "2.0.3"
         },
         "runtime": {
-          "lib/netstandard1.1/SQLite-net.dll": {
-            "assemblyVersion": "1.6.292.0",
-            "fileVersion": "1.6.292.0"
+          "lib/netstandard2.0/SQLite-net.dll": {
+            "assemblyVersion": "1.7.335.0",
+            "fileVersion": "1.7.335.0"
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/1.1.13": {
+      "SQLitePCLRaw.bundle_green/2.0.3": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3",
-          "SQLitePCLRaw.core": "1.1.13"
+          "SQLitePCLRaw.core": "2.0.3",
+          "SQLitePCLRaw.lib.e_sqlite3": "2.0.3",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.0.3"
         },
         "runtime": {
-          "lib/netstandard1.1/SQLitePCLRaw.batteries_green.dll": {
-            "assemblyVersion": "1.1.13.388",
-            "fileVersion": "1.0.0.0"
-          },
-          "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll": {
-            "assemblyVersion": "1.1.13.388",
-            "fileVersion": "1.0.0.0"
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "2.0.3.851",
+            "fileVersion": "2.0.3.851"
           }
         }
       },
-      "SQLitePCLRaw.core/1.1.13": {
+      "SQLitePCLRaw.core/2.0.3": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3"
+          "System.Memory": "4.5.3"
         },
         "runtime": {
-          "lib/netstandard1.1/SQLitePCLRaw.core.dll": {
-            "assemblyVersion": "1.1.13.388",
-            "fileVersion": "1.0.0.0"
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "2.0.3.851",
+            "fileVersion": "2.0.3.851"
+          }
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3/2.0.3": {},
+      "SQLitePCLRaw.provider.e_sqlite3/2.0.3": {
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {
+            "assemblyVersion": "2.0.3.851",
+            "fileVersion": "2.0.3.851"
+          }
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
           }
         }
       },
@@ -136,6 +152,27 @@
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Memory/4.5.3": {
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Numerics.Vectors": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {
+            "assemblyVersion": "4.0.1.1",
+            "fileVersion": "4.6.27617.2"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.6.25519.3"
+          }
         }
       },
       "System.Reflection/4.3.0": {
@@ -243,19 +280,19 @@
           }
         }
       },
-      "Xamarin.Forms/4.5.0.396": {
+      "Xamarin.Forms/4.7.0.1142": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.5.0.158"
+            "fileVersion": "4.7.0.463"
           },
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.5.0.158"
+            "fileVersion": "4.7.0.463"
           },
           "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.5.0.158"
+            "fileVersion": "4.7.0.463"
           }
         }
       }
@@ -330,26 +367,47 @@
       "path": "prism.unity.forms/7.2.0.1422",
       "hashPath": "prism.unity.forms.7.2.0.1422.nupkg.sha512"
     },
-    "sqlite-net-pcl/1.6.292": {
+    "sqlite-net-pcl/1.7.335": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TZPs206/ZZXhDAgCzxE5Dmw1enkRmtpd1RKt+dLJA6Kvml4RxwkasRs4js2kijtGxik1SLCs39rh9nl9YFwrYg==",
-      "path": "sqlite-net-pcl/1.6.292",
-      "hashPath": "sqlite-net-pcl.1.6.292.nupkg.sha512"
+      "sha512": "sha512-0A9YNPbp66aB+Sitxmh9lq1KDtD4+EBPfdtnYN8WenvQqh5dNgMxUV7kaEG6EXYTi4zBxcsDKpyYJzbViWJXtw==",
+      "path": "sqlite-net-pcl/1.7.335",
+      "hashPath": "sqlite-net-pcl.1.7.335.nupkg.sha512"
     },
-    "SQLitePCLRaw.bundle_green/1.1.13": {
+    "SQLitePCLRaw.bundle_green/2.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-E0Hm/XTfleE/LlrRZVucB1dQqDlIDPgqvkFymbGqMO7bSaoB6R2X5Cgzq/RDxBFSzHjpzet2Tp5Kar8faLSZ+Q==",
-      "path": "sqlitepclraw.bundle_green/1.1.13",
-      "hashPath": "sqlitepclraw.bundle_green.1.1.13.nupkg.sha512"
+      "sha512": "sha512-QgevRdYSy/MtL1TDdWuhoCH5cpBPZYUZd8h/WqgiLGXDa8e93Fv4/SE812SDCdjTb2+6s8SIwSLRq0z2bUeieg==",
+      "path": "sqlitepclraw.bundle_green/2.0.3",
+      "hashPath": "sqlitepclraw.bundle_green.2.0.3.nupkg.sha512"
     },
-    "SQLitePCLRaw.core/1.1.13": {
+    "SQLitePCLRaw.core/2.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-I8Q9qL1urPegoyZ5uI32lgqsxl8aPRZAyVBJbO+0T/zlGz/LBc8vhRVyDyCOU9LWWpV8dYpT0nCpuLv1ua6zkA==",
-      "path": "sqlitepclraw.core/1.1.13",
-      "hashPath": "sqlitepclraw.core.1.1.13.nupkg.sha512"
+      "sha512": "sha512-9LO3qT7tP+0qBAQxg/PGLHPcsKri4H2zIiiMEg+7EGrnBbuUnJg1tcfKiiqFtRp74kZSAV6N0ZeSGYiodqYnoQ==",
+      "path": "sqlitepclraw.core/2.0.3",
+      "hashPath": "sqlitepclraw.core.2.0.3.nupkg.sha512"
+    },
+    "SQLitePCLRaw.lib.e_sqlite3/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VSTQBlcPOcqCCxXnXwo8N2msQuE/Hd6oKpZ5Nn022tq5/+liyx5uEYNw6Hj8logTdkuq+3Nlq7qYQhraFWn1wg==",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.0.3",
+      "hashPath": "sqlitepclraw.lib.e_sqlite3.2.0.3.nupkg.sha512"
+    },
+    "SQLitePCLRaw.provider.e_sqlite3/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f2bwfPhD91dJ6KnjOw01KDT68zl7qpeX4+lC0mmKa+eA91Huya8hdNan73B3q7jEDLMFU/dkv7l5wqrqGB4QoQ==",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.0.3",
+      "hashPath": "sqlitepclraw.provider.e_sqlite3.2.0.3.nupkg.sha512"
+    },
+    "System.Buffers/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
+      "path": "system.buffers/4.4.0",
+      "hashPath": "system.buffers.4.4.0.nupkg.sha512"
     },
     "System.IO/4.3.0": {
       "type": "package",
@@ -357,6 +415,20 @@
       "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
       "path": "system.io/4.3.0",
       "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
+      "path": "system.numerics.vectors/4.4.0",
+      "hashPath": "system.numerics.vectors.4.4.0.nupkg.sha512"
     },
     "System.Reflection/4.3.0": {
       "type": "package",
@@ -435,12 +507,12 @@
       "path": "unity.container/5.11.1",
       "hashPath": "unity.container.5.11.1.nupkg.sha512"
     },
-    "Xamarin.Forms/4.5.0.396": {
+    "Xamarin.Forms/4.7.0.1142": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4yU8Dj83+/2PFTd76Q88G/fuVQ5MryvadGbc26ZqwQiLOUdMVLu5Otmzp51cWvJfwSgTI97fzPfE2urHKbF/XA==",
-      "path": "xamarin.forms/4.5.0.396",
-      "hashPath": "xamarin.forms.4.5.0.396.nupkg.sha512"
+      "sha512": "sha512-P/o+VzmgeoFJZ2WoRiar/w0RmkR9WvwAEx6j891Bf31psPjSYjfTI8tGLczFa8LDqdv63pGQNH4hnBoxJjivzg==",
+      "path": "xamarin.forms/4.7.0.1142",
+      "hashPath": "xamarin.forms.4.7.0.1142.nupkg.sha512"
     }
   }
 }

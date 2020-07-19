@@ -8,13 +8,16 @@
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Prism.DryIoc.Forms" Version="7.2.0.1422" />
     <PackageReference Include="Prism.Unity.Forms" Version="7.2.0.1422" />
-    <PackageReference Include="sqlite-net-pcl" Version="1.6.292" />
-    <PackageReference Include="Xamarin.Forms" Version="4.5.0.396" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
+    <PackageReference Include="Xamarin.Forms" Version="4.7.0.1142" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Views\AboutPage.xaml.cs">
       <DependentUpon>AboutPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ContentList.xaml.cs">
+      <DependentUpon>ContentList.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\NutritionPage.xaml.cs">
       <DependentUpon>NutritionPage.xaml</DependentUpon>
@@ -25,11 +28,11 @@
     <Compile Update="Views\EmotionalWellBeingPage.xaml.cs">
       <DependentUpon>EmotionalWellBeingPage.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\FoodActivity.xaml.cs">
+      <DependentUpon>FoodActivity.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\SecurityandSafetyPage.xaml.cs">
       <DependentUpon>SecurityandSafetyPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\WellbeingCategoriesPage.xaml.cs">
-      <DependentUpon>WellbeingCategoriesPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -44,6 +47,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\FoodActivity.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\SecurityandSafetyPage.xaml">
@@ -61,7 +67,7 @@
     <EmbeddedResource Update="Views\SignUpPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\WellbeingCategoriesPage.xaml">
+    <EmbeddedResource Update="Views\WellbeingCategories.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

@@ -25,7 +25,7 @@ namespace FYMApp
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/SignUpPage");
+            await NavigationService.NavigateAsync("NavigationPage/AboutPage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
@@ -42,9 +42,10 @@ namespace FYMApp
             containerRegistry.RegisterForNavigation<SecurityandSafetyPage, SecurityandSafetyPageViewModel>();
             containerRegistry.RegisterForNavigation<NutritionPage, NutritionPageViewModel>();
             containerRegistry.RegisterForNavigation<HygienePage, HygienePageViewModel>();
-            containerRegistry.RegisterForNavigation<WellbeingList, WellbeingListViewModel>();
             containerRegistry.RegisterForNavigation<ContentList, ContentListViewModel>();
             containerRegistry.RegisterForNavigation<AboutPage, AboutPageViewModel>();
+            containerRegistry.RegisterForNavigation<WellbeingCategories, WellbeingCategoriesViewModel>();
+            containerRegistry.RegisterForNavigation<FoodActivity, FoodActivityViewModel>();
         }
     }
 }
