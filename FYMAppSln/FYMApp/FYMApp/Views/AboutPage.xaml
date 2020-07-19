@@ -18,9 +18,9 @@
         <Label Text="Forming Young Minds provides Early Childhood Development content that is in line with the South African National Curriculum Framework." TextColor="Black"
                  FontSize="Body" FontAttributes="Bold" HorizontalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0" Grid.ColumnSpan="2" />
 
-        <Button Text="Login" TextColor="Black" FontAttributes="Bold" BackgroundColor="White" CornerRadius="30"
+        <Button Text="Login" TextColor="Black" FontAttributes="Bold" Command="{Binding NavigateCommand}" BackgroundColor="White" CornerRadius="30"
                     Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
-        <Button Text="Sign Up" TextColor="Black" FontAttributes="Bold" BackgroundColor="White" CornerRadius="30"
+        <Button Text="Sign Up" TextColor="Black" FontAttributes="Bold" Command="{Binding NavigationCommand}" BackgroundColor="White" CornerRadius="30"
                     Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" />
     </Grid>
 

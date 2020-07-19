@@ -25,7 +25,7 @@ namespace FYMApp
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/LoginPage");
+            await NavigationService.NavigateAsync("NavigationPage/SignUpPage");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
